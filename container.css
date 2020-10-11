@@ -1,0 +1,83 @@
+body{
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 200px;
+}
+.baner-top
+{
+    height: 80px;
+    margin-left: 20px;
+    margin-right:20px;
+    border: 1px solid green;
+    background-color: crimson;
+}
+.btn-primary 
+{ margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+
+}
+
+.main-container{
+    display: flex; 
+    background-color: rgb(27,10,100);
+    border: 1px solid black;
+    width:1307px;
+    margin: auto;
+    /* margin-top: 5px; */
+    background-image: url(main.png);
+
+}
+#a1{
+    margin-top:  20px;
+    margin-left: 10px;
+    width: 380px;
+    height: 540px;
+    /* border: 0px solid blue; */
+    background-image: url(ertugurl.png);
+}
+#a2{
+    margin: 20px;
+    width: 700px;
+    height: 540px;
+    /* border: 1px solid blue; */
+}
+#a3{
+    margin-top: 20px;
+    margin-right:10px;
+    width: 375px;
+    height: 540px;
+    /* border: 1px solid blue; */
+    background-image: url(osman.png);
+
+}
+#toggle-button{
+  margin-left:260px;
+}
+#episode-text{
+  margin-top :0;
+  text-align: center;
+  color:red; 
+  font-size: 2rem; 
+  /* text-shadow: 2px 2px blue; */
+}
+/* #ep1,#ep2,#ep3,#ep4,#ep5
+{
+    color: white;
+    margin:5px;
+    display: inline-block;
+    background-color: blue;
+    padding: 10px 10px;
+    width: 100px;
+    border:2px solid white;
+    border-radius: 8px;
+}
+#ep1:hover,#ep2:hover,#ep3:hover,#ep4:hover,#ep5:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid darkblue;
+}
+
+a{
+    text-decoration: none;
+} */
