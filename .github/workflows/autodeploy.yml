@@ -1,4 +1,4 @@
-name: Sufi Auto Deploy
+name: Deploy Website
 
 on: [push]
 
@@ -15,5 +15,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ arif_sufi.surge.sh --token ${{ secrets.ERTUGURL}}
-eploy your project.
+        run: surge ./ arif_sufi.surge.sh --token ${{ secrets.ertugurl }}
